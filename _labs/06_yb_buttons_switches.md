@@ -136,7 +136,7 @@ Copy and paste these two lines of code inside the brackets under the `void led_e
 
 While loops run and re-run the code inside them until a certain condition is met. This saves us the trouble of copy-pasting the same lines of code over and over again. We can also use while loops to make our code run forever. What if we wanted to use a while loop to make the first 10 leds blink one time each, in sequence? We could do something like the following:
 
-Paste this code inside the brackets of the `void loops_exploration()` function, and ___don't forget to change which funtion is commented out under___ `int main()`. Also feel free to change the number of LEDs or the color. 
+Paste this code inside the brackets of the `void loops_exploration()` function, and ___don't forget to change which function is commented out under___ `int main()`. Also feel free to change the number of LEDs or the color. 
 ```c
 int currentLed = 1;
 while(currentLed <= 10) {
